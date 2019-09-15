@@ -1,0 +1,18 @@
+# Basic packages used in many of the tutorials.
+# pip install -r requirements.txt
+
+# neural-network-documents
+keras==2.2.2
+keras-applications==1.0.4
+keras-preprocessing==1.0.2
+h5py==2.9.0
+numpy==1.15.0
+pandas==0.24.2
+pycosat==0.6.3
+mkl-random==1.0.1
+scikit-image==0.13.1
+scikit-learn==0.19.1 
+tensorflow==1.5
+
+# REST for Python
+Flask==0.10.1

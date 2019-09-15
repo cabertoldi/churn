@@ -1,0 +1,19 @@
+version: '3.6'
+services:
+  api:
+    build:
+      context: .
+    tty: true
+    working_dir: /app/churn
+    volumes:
+      - .:/app/churn
+    ports:
+      - 5000:3000
+    networks:
+      net:
+        aliases:
+          - churn
+
+networks:
+  net:
+    external: true
