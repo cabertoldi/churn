@@ -15,4 +15,4 @@ scikit-learn==0.19.1
 tensorflow==1.5
 
 # REST for Python
-Flask==0.10.1
+Flask==1.0
