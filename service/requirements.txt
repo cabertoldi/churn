@@ -6,7 +6,7 @@ keras==2.2.2
 keras-applications==1.0.4
 keras-preprocessing==1.0.2
 h5py==2.9.0
-numpy==1.15.0
+numpy==1.22.0
 pandas==0.24.2
 pycosat==0.6.3
 mkl-random==1.0.1
